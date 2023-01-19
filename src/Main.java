@@ -16,7 +16,15 @@ public class Main {
         ch04.q3();
         ch04.q4();
         ch04.q5();
+
+        ch05.q1();
+        ch05.q2();
+        ch05.q3();
+        ch05.q4();
+        ch05.q5();
+        ch05.q6();
+        ch05.q7();
+        ch05.q8();
+        ch05.q9();
     }
-
-
 }
