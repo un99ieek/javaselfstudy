@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class ch03 {
+    // Q1. 평균점수 구하기
     public static void q1() {
         int korean = 80;
         int english = 75;
@@ -9,6 +10,7 @@ public class ch03 {
         System.out.println(avg);
     }
 
+    // Q2. 홀수 짝수 판별
     public static void q2() {
         int num = 13;
         if(num % 2 == 0) {
@@ -18,6 +20,7 @@ public class ch03 {
         }
     }
 
+    // Q3. 주민등록번호 나누기
     public static void q3() {
         String secNum = "881120-1068234";
         String ymd = secNum.substring(0,6);
@@ -26,29 +29,34 @@ public class ch03 {
         System.out.println(sid);
     }
 
+    // Q4. 주민등록번호 인덱싱
     public static void q4() {
         String pin = "881120-1068234";
         char gender = pin.charAt(7);
         System.out.println(gender);
     }
 
+    // Q5. 문자열 바꾸기
     public static void q5() {
         String a = "a:b:c:d";
         System.out.println(a.replaceAll(":", "#"));
     }
 
+    // Q6. 리스트 역순 정렬하기
     public static void q6() {
         ArrayList<Integer> myList = new ArrayList<>(Arrays.asList(1, 3, 5, 4, 2));
         myList.sort(Comparator.reverseOrder());
         System.out.println(myList);
     }
 
+    // Q7. 리스트를 문자열로 만들기
     public static void q7() {
         ArrayList<String> myList = new ArrayList<>(Arrays.asList("Life", "is", "too", "short"));
         String result = String.join(" ", myList);
         System.out.println(result);
     }
 
+    // Q8. 맵에서 값 추출하기
     public static void q8() {
         HashMap<String, Integer> grade = new HashMap<>();
         grade.put("A", 90);
@@ -59,6 +67,7 @@ public class ch03 {
         System.out.println(grade);
     }
 
+    // Q9. 중복 숫자 제거하기
     public static void q9() {
         ArrayList<Integer> numbers = new ArrayList<>(Arrays.asList(1, 1, 1, 2, 2, 3, 3, 3, 4, 4, 5));
         HashSet<Integer> temp = new HashSet(numbers);
@@ -66,6 +75,7 @@ public class ch03 {
         System.out.println(result);
     }
 
+    // Q10. 매직넘버 제거하기
     public static void q10() {
         getCoffeePrice(CoffeeType.AMERICANO);
     }

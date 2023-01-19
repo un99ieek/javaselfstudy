@@ -10,6 +10,12 @@ public class Main {
         ch03.q8();
         ch03.q9();
         ch03.q10();
+
+        ch04.q1();
+        ch04.q2();
+        ch04.q3();
+        ch04.q4();
+        ch04.q5();
     }
 
 
